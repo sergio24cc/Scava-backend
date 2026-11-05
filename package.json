@@ -1,7 +1,7 @@
 {
-  "name": "jwt-auth-project",
+  "name": "scava-backend",
   "version": "0.0.1",
-  "description": "",
+  "description": "SCAVA - Sistema de Co-aprendizaje Virtual Adaptativo (Estándar MOCAVI)",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
