@@ -12,17 +12,17 @@ import {
   HttpCode,
   HttpStatus,
 } from '@nestjs/common';
-import { AcademicService } from './academic.service.js';
-import { CreateCourseDto } from './dto/create-course.dto.js';
-import { UpdateCourseDto } from './dto/update-course.dto.js';
-import { EnrollStudentDto } from './dto/enroll-student.dto.js';
-import { CreateTopicDto } from './dto/create-topic.dto.js';
-import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard.js';
-import { RolesGuard } from '../auth/guards/roles.guard.js';
-import { Roles } from '../auth/decorators/roles.decorator.js';
-import { GetUser } from '../auth/decorators/get-user.decorator.js';
-import { User } from '../user/entities/user.entity.js';
-import { UserRole } from '../user/enums/role.enum.js';
+import { AcademicService } from './academic.service';
+import { CreateCourseDto } from './dto/create-course.dto';
+import { UpdateCourseDto } from './dto/update-course.dto';
+import { EnrollStudentDto } from './dto/enroll-student.dto';
+import { CreateTopicDto } from './dto/create-topic.dto';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+import { RolesGuard } from '../auth/guards/roles.guard';
+import { Roles } from '../auth/decorators/roles.decorator';
+import { GetUser } from '../auth/decorators/get-user.decorator';
+import { User } from '../user/entities/user.entity';
+import { UserRole } from '../user/enums/role.enum';
 
 /**
  * Controlador de Cursos (CoursesController)

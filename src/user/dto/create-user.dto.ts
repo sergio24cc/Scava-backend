@@ -8,7 +8,7 @@ import {
   IsBoolean,
   IsEnum,
 } from 'class-validator';
-import { UserRole } from '../enums/role.enum.js';
+import { UserRole } from '../enums/role.enum';
 
 /**
  * DTO para la creación directa de usuarios por parte de administración (CreateUserDto)

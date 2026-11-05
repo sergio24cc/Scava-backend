@@ -1,5 +1,5 @@
 import { IsInt, IsNotEmpty, IsOptional, IsEnum } from 'class-validator';
-import { EnrollmentStatus } from '../enums/enrollment-status.enum.js';
+import { EnrollmentStatus } from '../enums/enrollment-status.enum';
 
 /**
  * DTO para matricular a un estudiante en un curso (EnrollStudentDto)

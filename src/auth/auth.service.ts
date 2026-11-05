@@ -5,12 +5,12 @@ import {
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
-import { UserService } from '../user/user.service.js';
-import { RegisterDto } from './dto/register.dto.js';
-import { LoginDto } from './dto/login.dto.js';
-import { JwtPayload } from './interfaces/jwt-payload.interface.js';
-import { User } from '../user/entities/user.entity.js';
-import { UserRole } from '../user/enums/role.enum.js';
+import { UserService } from '../user/user.service';
+import { RegisterDto } from './dto/register.dto';
+import { LoginDto } from './dto/login.dto';
+import { JwtPayload } from './interfaces/jwt-payload.interface';
+import { User } from '../user/entities/user.entity';
+import { UserRole } from '../user/enums/role.enum';
 
 /**
  * Servicio de Autenticación (AuthService)

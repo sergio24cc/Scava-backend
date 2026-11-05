@@ -1,5 +1,5 @@
 import { IsEnum, IsNotEmpty } from 'class-validator';
-import { EnrollmentStatus } from '../enums/enrollment-status.enum.js';
+import { EnrollmentStatus } from '../enums/enrollment-status.enum';
 
 /**
  * DTO para actualizar el estado de una matrícula (UpdateEnrollmentDto)

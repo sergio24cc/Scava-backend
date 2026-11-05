@@ -1,13 +1,13 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Course } from './entities/course.entity.js';
-import { Enrollment } from './entities/enrollment.entity.js';
-import { LearningTopic } from './entities/learning-topic.entity.js';
-import { User } from '../user/entities/user.entity.js';
-import { AcademicService } from './academic.service.js';
-import { CoursesController } from './courses.controller.js';
-import { EnrollmentsController } from './enrollments.controller.js';
-import { TopicsController } from './topics.controller.js';
+import { Course } from './entities/course.entity';
+import { Enrollment } from './entities/enrollment.entity';
+import { LearningTopic } from './entities/learning-topic.entity';
+import { User } from '../user/entities/user.entity';
+import { AcademicService } from './academic.service';
+import { CoursesController } from './courses.controller';
+import { EnrollmentsController } from './enrollments.controller';
+import { TopicsController } from './topics.controller';
 
 /**
  * Módulo Académico (AcademicModule)

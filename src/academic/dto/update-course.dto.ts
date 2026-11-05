@@ -1,5 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
-import { CreateCourseDto } from './create-course.dto.js';
+import { CreateCourseDto } from './create-course.dto';
 
 /**
  * DTO para la actualización parcial de un curso (UpdateCourseDto)

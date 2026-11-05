@@ -7,12 +7,12 @@ import {
   HttpCode,
   HttpStatus,
 } from '@nestjs/common';
-import { AuthService } from './auth.service.js';
-import { RegisterDto } from './dto/register.dto.js';
-import { LoginDto } from './dto/login.dto.js';
-import { JwtAuthGuard } from './guards/jwt-auth.guard.js';
-import { GetUser } from './decorators/get-user.decorator.js';
-import { User } from '../user/entities/user.entity.js';
+import { AuthService } from './auth.service';
+import { RegisterDto } from './dto/register.dto';
+import { LoginDto } from './dto/login.dto';
+import { JwtAuthGuard } from './guards/jwt-auth.guard';
+import { GetUser } from './decorators/get-user.decorator';
+import { User } from '../user/entities/user.entity';
 
 /**
  * Controlador de Autenticación (AuthController)

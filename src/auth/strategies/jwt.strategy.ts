@@ -2,9 +2,9 @@ import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { ConfigService } from '@nestjs/config';
-import { UserService } from '../../user/user.service.js';
-import { JwtPayload } from '../interfaces/jwt-payload.interface.js';
-import { User } from '../../user/entities/user.entity.js';
+import { UserService } from '../../user/user.service';
+import { JwtPayload } from '../interfaces/jwt-payload.interface';
+import { User } from '../../user/entities/user.entity';
 
 /**
  * Estrategia JWT (JwtStrategy)

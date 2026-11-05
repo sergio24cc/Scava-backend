@@ -1,4 +1,4 @@
-import { UserRole } from '../../user/enums/role.enum.js';
+import { UserRole } from '../../user/enums/role.enum';
 
 /**
  * Estructura del Payload codificado dentro del JSON Web Token (JWT).

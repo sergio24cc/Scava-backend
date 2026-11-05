@@ -1,5 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
-import { CreateTopicDto } from './create-topic.dto.js';
+import { CreateTopicDto } from './create-topic.dto';
 
 /**
  * DTO para la actualización parcial de un tema de aprendizaje (UpdateTopicDto)

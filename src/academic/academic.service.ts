@@ -7,18 +7,18 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Course } from './entities/course.entity.js';
-import { Enrollment } from './entities/enrollment.entity.js';
-import { LearningTopic } from './entities/learning-topic.entity.js';
-import { User } from '../user/entities/user.entity.js';
-import { UserRole } from '../user/enums/role.enum.js';
-import { CreateCourseDto } from './dto/create-course.dto.js';
-import { UpdateCourseDto } from './dto/update-course.dto.js';
-import { EnrollStudentDto } from './dto/enroll-student.dto.js';
-import { UpdateEnrollmentDto } from './dto/update-enrollment.dto.js';
-import { CreateTopicDto } from './dto/create-topic.dto.js';
-import { UpdateTopicDto } from './dto/update-topic.dto.js';
-import { EnrollmentStatus } from './enums/enrollment-status.enum.js';
+import { Course } from './entities/course.entity';
+import { Enrollment } from './entities/enrollment.entity';
+import { LearningTopic } from './entities/learning-topic.entity';
+import { User } from '../user/entities/user.entity';
+import { UserRole } from '../user/enums/role.enum';
+import { CreateCourseDto } from './dto/create-course.dto';
+import { UpdateCourseDto } from './dto/update-course.dto';
+import { EnrollStudentDto } from './dto/enroll-student.dto';
+import { UpdateEnrollmentDto } from './dto/update-enrollment.dto';
+import { CreateTopicDto } from './dto/create-topic.dto';
+import { UpdateTopicDto } from './dto/update-topic.dto';
+import { EnrollmentStatus } from './enums/enrollment-status.enum';
 
 /**
  * Servicio Académico (AcademicService)

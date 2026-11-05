@@ -5,9 +5,9 @@ import {
   ForbiddenException,
 } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { ROLES_KEY } from '../decorators/roles.decorator.js';
-import { UserRole } from '../../user/enums/role.enum.js';
-import { User } from '../../user/entities/user.entity.js';
+import { ROLES_KEY } from '../decorators/roles.decorator';
+import { UserRole } from '../../user/enums/role.enum';
+import { User } from '../../user/entities/user.entity';
 
 /**
  * Guard de Autorización Basado en Roles (RolesGuard)

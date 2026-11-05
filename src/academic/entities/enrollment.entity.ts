@@ -8,9 +8,9 @@ import {
   Unique,
   type Relation,
 } from 'typeorm';
-import { User } from '../../user/entities/user.entity.js';
-import { Course } from './course.entity.js';
-import { EnrollmentStatus } from '../enums/enrollment-status.enum.js';
+import { User } from '../../user/entities/user.entity';
+import { Course } from './course.entity';
+import { EnrollmentStatus } from '../enums/enrollment-status.enum';
 
 /**
  * Entidad Enrollment (Mapeada a la tabla 'matriculas' del modelo SCAVA)

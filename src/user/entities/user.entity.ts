@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 import { Exclude } from 'class-transformer';
-import { UserRole } from '../enums/role.enum.js';
+import { UserRole } from '../enums/role.enum';
 
 /**
  * Entidad User (Mapeada a la tabla 'usuarios' del modelo SCAVA)

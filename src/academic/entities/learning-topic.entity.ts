@@ -6,8 +6,8 @@ import {
   JoinColumn,
   type Relation,
 } from 'typeorm';
-import { User } from '../../user/entities/user.entity.js';
-import { Course } from './course.entity.js';
+import { User } from '../../user/entities/user.entity';
+import { Course } from './course.entity';
 
 /**
  * Entidad LearningTopic (Mapeada a la tabla 'temas_aprendizaje' del modelo SCAVA)

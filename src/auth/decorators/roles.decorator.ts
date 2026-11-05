@@ -1,5 +1,5 @@
 import { SetMetadata } from '@nestjs/common';
-import { UserRole } from '../../user/enums/role.enum.js';
+import { UserRole } from '../../user/enums/role.enum';
 
 /**
  * Clave de metadatos utilizada por Reflector para almacenar y leer los roles requeridos.

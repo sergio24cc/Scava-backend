@@ -3,7 +3,7 @@ import {
   ExecutionContext,
   InternalServerErrorException,
 } from '@nestjs/common';
-import { User } from '../../user/entities/user.entity.js';
+import { User } from '../../user/entities/user.entity';
 
 /**
  * Decorador de parámetro @GetUser()

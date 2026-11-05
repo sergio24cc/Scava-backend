@@ -7,7 +7,7 @@ import {
   IsBoolean,
   IsEnum,
 } from 'class-validator';
-import { UserRole } from '../enums/role.enum.js';
+import { UserRole } from '../enums/role.enum';
 
 /**
  * DTO para la actualización parcial de usuarios (UpdateUserDto)

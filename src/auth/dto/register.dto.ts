@@ -7,7 +7,7 @@ import {
   IsOptional,
   IsEnum,
 } from 'class-validator';
-import { UserRole } from '../../user/enums/role.enum.js';
+import { UserRole } from '../../user/enums/role.enum';
 
 /**
  * DTO para la solicitud de registro de usuarios (RegisterDto)
